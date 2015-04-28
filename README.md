@@ -12,4 +12,4 @@ Mac上插入移动硬盘默认挂载只能读，不能写
 * 插入移动硬盘到你的Mac
 * 运行脚本
 `sudo ./mac-ntfs-hello.sh`
-* 去/var/Volumes/里查看吧
+* 去/var/Volumes/里查看吧，Finder -> 前往 -> 前往文件夹 -> 输入“/var/Volumes/”
