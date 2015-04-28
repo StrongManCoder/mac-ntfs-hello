@@ -1,2 +1,15 @@
 # mac-ntfs-hello
 Mac OS X平台以读写权限挂载NTFS驱动器
+
+## 用途
+
+Mac上插入移动硬盘默认挂载只能读，不能写
+
+这个脚本将系统默认的NTFS驱动器挂载点卸掉，以rw权限重新挂载
+
+## 用法
+
+* 插入移动硬盘到你的Mac
+* 运行脚本
+`sudo ./mac-ntfs-hello.sh`
+* 去/var/Volumes/里查看吧
